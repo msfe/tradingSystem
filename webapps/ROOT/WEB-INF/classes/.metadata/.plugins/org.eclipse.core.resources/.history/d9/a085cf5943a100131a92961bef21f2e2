@@ -1,0 +1,27 @@
+package bean;
+
+public class ClosedOrderBean extends OrderBean{
+
+	private String userIDSeller;
+
+	/**
+	 * Class assumes that the price of the buyOrder is greater than the one in the sellOrder.
+	 */
+	public ClosedOrderBean(OrderBean buyOrder, OrderBean sellOrder){
+		super(buyOrder.getName(), buyOrder.getPrice(), buyOrder.getAmount(), buyOrder.getuserID());
+		if(buyOrder.getAmount() == sellOrder.getAmount()){
+			userIDSeller = sellOrder.userID;
+		 } else if(buyOrder.getAmount() < sellOrder.getAmount()){
+				userIDSeller = sellOrder.userID;
+		 } else { // buyOrder.getAmount() > sellOrder.getAmount()
+				super(buyOrder.name, buyOrder.price, sellOrder.amount, buyOrder.userID);
+				userIDSeller = sellOrder.userID;
+		 }
+	}
+		
+	public String getuserIDSeller(){
+		return userIDSeller;
+	}
+
+
+}

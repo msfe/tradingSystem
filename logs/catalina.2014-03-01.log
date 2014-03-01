@@ -1,0 +1,48 @@
+Mar 1, 2014 12:45:50 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 12:45:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 12:45:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 12:45:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1119 ms
+Mar 1, 2014 12:45:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 12:45:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 12:45:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 12:45:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 12:45:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 12:45:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 12:45:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 12:45:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 12:45:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 12:45:51 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 710 ms
+Mar 1, 2014 12:49:31 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/host-manager]
+Mar 1, 2014 12:49:32 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/docs]
+Mar 1, 2014 12:49:32 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context []
+Mar 1, 2014 12:49:32 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/examples]
+Mar 1, 2014 12:49:33 PM org.apache.catalina.startup.HostConfig deleteRedeployResources
+INFO: Undeploying context [/manager]
+Mar 1, 2014 12:49:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 12:49:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 12:49:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 12:49:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 12:49:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager

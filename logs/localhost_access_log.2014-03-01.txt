@@ -1,0 +1,8 @@
+127.0.0.1 - - [01/Mar/2014:12:46:04 +0100] "GET /HelloWorld HTTP/1.1" 200 14
+127.0.0.1 - - [01/Mar/2014:12:46:04 +0100] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [01/Mar/2014:12:53:36 +0100] "GET /trade.jsp HTTP/1.1" 200 1346
+127.0.0.1 - - [01/Mar/2014:12:53:51 +0100] "GET /TradeController?action=addSecurity&security=ericsson HTTP/1.1" 200 1353
+127.0.0.1 - - [01/Mar/2014:12:54:04 +0100] "GET /TradeController?action=addSecurity&security=Mitt+AB HTTP/1.1" 200 1353
+127.0.0.1 - - [01/Mar/2014:12:54:14 +0100] "GET /TradeController?action=addOrder&security=Ericsson&buyOrSell=B&price=10&amount=100 HTTP/1.1" 200 1350
+127.0.0.1 - - [01/Mar/2014:12:54:26 +0100] "GET /TradeController?action=addOrder&security=Ericsson&buyOrSell=S&price=10&amount=100 HTTP/1.1" 200 1350
+127.0.0.1 - - [01/Mar/2014:12:54:27 +0100] "GET /TradeController?action=viewTrades&security=Ericsson HTTP/1.1" 200 1352

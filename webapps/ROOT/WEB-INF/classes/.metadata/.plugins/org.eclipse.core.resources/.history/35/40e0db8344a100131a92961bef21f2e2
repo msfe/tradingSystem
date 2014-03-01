@@ -1,0 +1,72 @@
+package bean;
+
+import java.util.ArrayList;
+
+public class TradeSystemBean {
+	 
+	private ArrayList<OrderBean> saleOrders;
+	private ArrayList<OrderBean> buyOrders;
+	private ArrayList<String> allSecurities;
+	private ArrayList<ClosedOrderBean> closedOrders;
+	 
+	 public TradeSystemBean(){
+		 saleOrders = new ArrayList<OrderBean>();
+		 buyOrders = new ArrayList<OrderBean>();
+		 allSecurities = new ArrayList<String>();
+		 closedOrders = new ArrayList<ClosedOrderBean>();
+	 }
+	 
+	 public void addSecurity(String security){
+		 allSecurities.add(security);
+	 }
+	 
+	 public boolean securityExists(String security){
+		 return allSecurities.contains(security);
+	 }
+	 
+	 public boolean addSaleOrder(OrderBean order){
+		 if(saleOrders.contains(order)){
+			 return false;
+		 }
+		 saleOrders.add(order);
+		 return true;
+	 }
+	 
+	 public boolean addBuyOrder(OrderBean order){
+		 if(saleOrders.contains(order)){
+			 return false;
+		 }
+		 buyOrders.add(order);
+		 return true;
+	 }
+	 
+	 public boolean closeDeal(OrderBean buyOrder, OrderBean sellOrder){
+		 if(buyOrder.getPrice() > sellOrder.getPrice()){
+			 ClosedOrderBean closedOrder = new ClosedOrderBean(buyOrder, sellOrder);
+			 
+			 //Adjust the buy/sell order
+			 if(closedOrder.getAmount() >= buyOrder.getAmount()){
+				 buyOrders.remove(buyOrder);
+			 } else {
+				 buyOrder.setAmount(closedOrder.getAmount()-buyOrder.getAmount());
+			 }
+			 
+			 if(closedOrder.getAmount() >= sellOrder.getAmount()){
+				 saleOrders.remove(sellOrder);
+			 } else {
+				 sellOrder.setAmount(closedOrder.getAmount()-sellOrder.getAmount());
+			 }
+			 
+		 } else {
+			 return false;
+		 }
+		 return true;
+	 }
+}
+	 
+	 /*
+	 addera (nytt) värdepapper att handla på t ex "Ericsson"
+	 • lägga en köp/sälj order t ex "Ericsson buy 12.5 10 stene" 
+	 • lista avslut, dvs kurshistoriken
+*/
+	 
