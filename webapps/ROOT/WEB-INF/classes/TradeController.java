@@ -10,8 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import bean.OrderBean;
+import bean.UserBean;
 
-public class TradeController extends HttpServlet {
+public class TradeController extends HttpServlet{
 
 	/**
 	 * 
@@ -28,26 +29,32 @@ public class TradeController extends HttpServlet {
 				sc.setAttribute("tradingsystem", new bean.TradeSystemBean());
 			}
 		}
+		
+		
 
 		HttpSession session = request.getSession();
 		if (session.isNew()) {
 			session.setAttribute("user", new bean.UserBean());
-			RequestDispatcher rd = sc.getRequestDispatcher("/trade_index.html");
+			RequestDispatcher rd = sc.getRequestDispatcher("/trade.jsp");
 			try {
 				rd.forward(request, response);
+				return;
 			} catch (ServletException e) {
 				out.println(e.getMessage());
 			}
 		}
+		
 
-		// TODO någon typ av hantering av inloggning
-
-		if (request.getParameter("nickname") == null) {
-			bean.UserBean u = (bean.UserBean) session.getAttribute("user");
+		if (request.getParameter("nickname") != null) {
+			UserBean u = (bean.UserBean) session.getAttribute("user");
+			if(u == null){
+				throw new IOException("User is null");
+			}
 			u.setNickname(request.getParameter("nickname"));
 			RequestDispatcher rd = sc.getRequestDispatcher("/trade.jsp");
 			try {
 				rd.forward(request, response);
+				return;
 			} catch (ServletException e) {
 				out.println(e.getMessage());
 			}
@@ -56,10 +63,9 @@ public class TradeController extends HttpServlet {
 		String message = "";
 
 		if (request.getParameter("action") != null) {
-			bean.UserBean user = (bean.UserBean) session.getAttribute("user");
+			UserBean user = (bean.UserBean) session.getAttribute("user");
 			bean.TradeSystemBean tradeSys = (bean.TradeSystemBean) sc
 					.getAttribute("tradingsystem");
-
 			if (request.getParameter("action").equals("addSecurity")) {
 				tradeSys.addSecurity(request.getParameter("security"));
 				message = "addSecurity";
@@ -72,9 +78,9 @@ public class TradeController extends HttpServlet {
 				order.setPrice(new Float(request.getParameter("price")));
 				order.setAmount(new Integer(request.getParameter("amount")));
 				order.setUserId(request.getParameter("user"));
-				if (type == "B") {
+				if (type.equals("B")) {
 					tradeSys.addBuyOrder(order);
-				} else if (type == "S") {
+				} else if (type.equals("S")) {
 					tradeSys.addSaleOrder(order);
 				}
 				message = "addOrder";
@@ -91,9 +97,9 @@ public class TradeController extends HttpServlet {
 					.getRequestDispatcher("trade.jsp?message=" + message);
 			rd.forward(request, response);
 		} catch (ServletException e) {
-			System.out.print(e.getMessage());
+			out.print(e.getMessage());
 		} catch (IOException e) {
-			System.out.print(e.getMessage());
+			out.print(e.getMessage());
 		}
 		out.close();
 	}

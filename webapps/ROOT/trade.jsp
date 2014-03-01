@@ -1,4 +1,6 @@
 <%@ page import="java.util.ArrayList" %>
+<%@ page import="bean.OrderBean" %>
+
 
 <html>
 
@@ -56,12 +58,11 @@ Värdepapper: <select name="security">
 <input type="submit" value="Utför">
 </form>
 
-
 <h2> Buyorders </h2>
 <%
-for(String security : tradeSys.getAllSecurities()){
+for(OrderBean order : tradeSys.getBuyOrders()){
 %>
-<p> <%=security %> </p> <br>
+<p> <%=order.getName() %> </p>
 <%}%>
 
 

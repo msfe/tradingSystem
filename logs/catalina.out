@@ -3187,3 +3187,2137 @@ Mar 1, 2014 5:18:33 PM org.apache.coyote.AbstractProtocol start
 INFO: Starting ProtocolHandler ["ajp-bio-8009"]
 Mar 1, 2014 5:18:33 PM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 541 ms
+Mar 1, 2014 9:11:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:11:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:11:36 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:11:36 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 539 ms
+Mar 1, 2014 9:11:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:11:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:11:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:11:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:11:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:11:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:11:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:11:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:11:37 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:11:37 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 541 ms
+Mar 1, 2014 9:14:22 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:14:22 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:22 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:22 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:14:22 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:22 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:22 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:22 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:27 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:14:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 543 ms
+Mar 1, 2014 9:14:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:14:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:14:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:14:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:14:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:14:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:14:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:14:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:27 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 552 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="<%=buyOrder.getName(); %>"><%=security %></option>
+54: <%}%>
+
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+Type mismatch: cannot convert from element type bean.OrderBean to OrderBean
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="<%=buyOrder.getName(); %>"><%=security %></option>
+54: <%}%>
+
+
+An error occurred at line: 53 in the jsp file: /trade.jsp
+Syntax error on token ";", delete this token
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="<%=buyOrder.getName(); %>"><%=security %></option>
+54: <%}%>
+55: </select><br>
+56: <input type="submit" value="Utför">
+
+
+An error occurred at line: 53 in the jsp file: /trade.jsp
+security cannot be resolved to a variable
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="<%=buyOrder.getName(); %>"><%=security %></option>
+54: <%}%>
+55: </select><br>
+56: <input type="submit" value="Utför">
+
+
+Stacktrace:Mar 1, 2014 9:14:53 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:14:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:53 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:14:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:57 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:14:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 557 ms
+Mar 1, 2014 9:14:58 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:14:58 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:14:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:14:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:14:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:14:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:14:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:14:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:14:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:14:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 577 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="<%=buyOrder.getName() %>"><%=security %></option>
+54: <%}%>
+
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+Type mismatch: cannot convert from element type bean.OrderBean to OrderBean
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="<%=buyOrder.getName() %>"><%=security %></option>
+54: <%}%>
+
+
+An error occurred at line: 53 in the jsp file: /trade.jsp
+security cannot be resolved to a variable
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="<%=buyOrder.getName() %>"><%=security %></option>
+54: <%}%>
+55: </select><br>
+56: <input type="submit" value="Utför">
+
+
+Stacktrace:Mar 1, 2014 9:15:37 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:15:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:15:37 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:15:37 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:15:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:15:37 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:15:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:15:37 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:15:41 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:15:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:15:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:15:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 543 ms
+Mar 1, 2014 9:15:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:15:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:15:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:15:42 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,394] milliseconds.
+Mar 1, 2014 9:15:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:15:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:15:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:15:43 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:15:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:15:43 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:15:43 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1949 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="jade"><%=security %></option>
+54: <%}%>
+
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+Type mismatch: cannot convert from element type bean.OrderBean to OrderBean
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="jade"><%=security %></option>
+54: <%}%>
+
+
+An error occurred at line: 53 in the jsp file: /trade.jsp
+security cannot be resolved to a variable
+50: Värdepapper: <select name="security">
+51: <%for(OrderBean buyOrder : tradeSys.getBuyOrders()){
+52: %>
+53: <option value="jade"><%=security %></option>
+54: <%}%>
+55: </select><br>
+56: <input type="submit" value="Utför">
+
+
+Stacktrace:Mar 1, 2014 9:18:15 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:18:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:15 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:15 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:18:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:15 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:15 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:18 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:18:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:18 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 542 ms
+Mar 1, 2014 9:18:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:18:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:18:18 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:18:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:18:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:18:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:18:19 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:18:19 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:19 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:19 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 569 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <% ArrayList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+52: for(int i = 0 ; i<buyOrders.size(); i++){
+53: orderBean = buyOrders.get(i);
+54: %>
+
+
+An error occurred at line: 55 in the jsp file: /trade.jsp
+security cannot be resolved to a variable
+52: for(int i = 0 ; i<buyOrders.size(); i++){
+53: orderBean = buyOrders.get(i);
+54: %>
+55: <option value="nu"><%=security %></option>
+56: <%}%>
+57: </select><br>
+58: <input type="submit" value="Utför">
+
+
+Stacktrace:Mar 1, 2014 9:18:54 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:18:54 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:54 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:54 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:18:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:54 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:54 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:54 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:58 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:18:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 544 ms
+Mar 1, 2014 9:18:58 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:18:58 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:18:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:18:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:18:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:18:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:18:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:18:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:18:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:18:59 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 581 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <% ArrayList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+52: 
+53: %>
+54: <option value="nu"><%=security %></option>
+
+
+An error occurred at line: 54 in the jsp file: /trade.jsp
+security cannot be resolved to a variable
+51: <% ArrayList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+52: 
+53: %>
+54: <option value="nu"><%=security %></option>
+55: <%}%>
+56: </select><br>
+57: <input type="submit" value="Utför">
+
+
+An error occurred at line: 55 in the jsp file: /trade.jsp
+Syntax error, insert "Finally" to complete TryStatement
+52: 
+53: %>
+54: <option value="nu"><%=security %></option>
+55: <%}%>
+56: </select><br>
+57: <input type="submit" value="Utför">
+58: </form>
+
+
+An error occurred at line: 63 in the jsp file: /trade.jsp
+tradeSys cannot be resolved
+60: 
+61: <h2> Buyorders </h2>
+62: <%
+63: for(String security : tradeSys.getAllSecurities()){
+64: %>
+65: <p> <%=security %> </p> <br>
+66: <%}%>
+
+
+An error occurred at line: 151 in the generated java file
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: 153 in the generated java file
+out cannot be resolved to a variable
+
+An error occurred at line: 153 in the generated java file
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: 154 in the generated java file
+out cannot be resolved to a variable
+
+An error occurred at line: 154 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 155 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 156 in the generated java file
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: 156 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 159 in the generated java file
+Syntax error on token "finally", { expected
+
+An error occurred at line: 160 in the generated java file
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:Unable to compile class for JSP: 
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <% ArrayList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+52: 
+53: %>
+54: <option value="nu"><%=security %></option>
+
+
+An error occurred at line: 54 in the jsp file: /trade.jsp
+security cannot be resolved to a variable
+51: <% ArrayList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+52: 
+53: %>
+54: <option value="nu"><%=security %></option>
+55: <%}%>
+56: </select><br>
+57: <input type="submit" value="Utför">
+
+
+An error occurred at line: 55 in the jsp file: /trade.jsp
+Syntax error, insert "Finally" to complete TryStatement
+52: 
+53: %>
+54: <option value="nu"><%=security %></option>
+55: <%}%>
+56: </select><br>
+57: <input type="submit" value="Utför">
+58: </form>
+
+
+An error occurred at line: 63 in the jsp file: /trade.jsp
+tradeSys cannot be resolved
+60: 
+61: <h2> Buyorders </h2>
+62: <%
+63: for(String security : tradeSys.getAllSecurities()){
+64: %>
+65: <p> <%=security %> </p> <br>
+66: <%}%>
+
+
+An error occurred at line: 151 in the generated java file
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: 153 in the generated java file
+out cannot be resolved to a variable
+
+An error occurred at line: 153 in the generated java file
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: 154 in the generated java file
+out cannot be resolved to a variable
+
+An error occurred at line: 154 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 155 in the generated java file
+out cannot be resolved
+
+An error occurred at line: 156 in the generated java file
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: 156 in the generated java file
+_jspx_page_context cannot be resolved
+
+An error occurred at line: 159 in the generated java file
+Syntax error on token "finally", { expected
+
+An error occurred at line: 160 in the generated java file
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:Mar 1, 2014 9:21:23 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:21:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:21:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:21:23 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:21:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:21:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:21:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:21:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:21:26 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:21:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:21:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:21:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 542 ms
+Mar 1, 2014 9:21:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:21:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:21:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:21:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:21:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:21:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:21:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:21:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:21:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:21:27 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 573 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 51 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+48: <form action="/TradeController">
+49: <input type="hidden" name="action" value="viewTrades">
+50: Värdepapper: <select name="security">
+51: <% ArrayList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+52: %>
+53: <option value="nu"><%=security %></option>
+54: <%%>
+
+
+An error occurred at line: 53 in the jsp file: /trade.jsp
+security cannot be resolved to a variable
+50: Värdepapper: <select name="security">
+51: <% ArrayList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+52: %>
+53: <option value="nu"><%=security %></option>
+54: <%%>
+55: </select><br>
+56: <input type="submit" value="Utför">
+
+
+Stacktrace:Mar 1, 2014 9:22:46 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:22:46 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:22:46 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:22:46 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:22:46 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:22:46 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:22:46 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:22:46 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:22:50 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:22:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:22:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:22:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 543 ms
+Mar 1, 2014 9:22:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:22:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:22:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:22:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:22:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:22:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:22:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:22:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:22:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:22:51 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 551 ms
+Mar 1, 2014 9:24:32 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:24:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:24:32 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:24:32 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:24:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:24:32 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:24:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:24:32 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:24:35 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:24:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:24:35 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:24:35 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 552 ms
+Mar 1, 2014 9:24:35 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:24:35 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:24:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:24:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:24:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:24:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:24:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:24:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:24:36 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:24:36 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 557 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: for(OrderBean order : tradeSys.getBuyOrders()){
+63: %>
+64: <p> <%=order.getName(); %> </p> <br>
+65: <%}%>
+
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+Type mismatch: cannot convert from element type bean.OrderBean to OrderBean
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: for(OrderBean order : tradeSys.getBuyOrders()){
+63: %>
+64: <p> <%=order.getName(); %> </p> <br>
+65: <%}%>
+
+
+An error occurred at line: 64 in the jsp file: /trade.jsp
+Syntax error on token ";", delete this token
+61: <%
+62: for(OrderBean order : tradeSys.getBuyOrders()){
+63: %>
+64: <p> <%=order.getName(); %> </p> <br>
+65: <%}%>
+66: 
+67: 
+
+
+Stacktrace:Mar 1, 2014 9:24:55 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:24:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:24:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:24:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:24:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:24:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:24:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:24:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:24:58 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:24:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:24:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:24:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 543 ms
+Mar 1, 2014 9:24:58 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:24:58 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:24:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:25:00 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,566] milliseconds.
+Mar 1, 2014 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:25:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:25:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:25:00 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:25:00 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2132 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: for(OrderBean order : tradeSys.getBuyOrders()){
+63: %>
+64: <p> <%=order.getName() %> </p> <br>
+65: <%}%>
+
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+Type mismatch: cannot convert from element type bean.OrderBean to OrderBean
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: for(OrderBean order : tradeSys.getBuyOrders()){
+63: %>
+64: <p> <%=order.getName() %> </p> <br>
+65: <%}%>
+
+
+Stacktrace:Mar 1, 2014 9:26:49 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:26:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:26:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:26:49 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:26:49 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:26:49 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:26:49 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:26:49 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:26:52 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:26:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:26:52 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:26:52 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 538 ms
+Mar 1, 2014 9:26:52 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:26:52 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:26:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:26:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:26:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:26:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:26:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:26:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:26:53 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:26:53 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 568 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+LinkedList cannot be resolved to a type
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: LinkedList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+63: %>
+64: <p> hej </p>
+65: 
+
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: LinkedList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+63: %>
+64: <p> hej </p>
+65: 
+
+
+Stacktrace:Mar 1, 2014 9:28:50 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:28:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:28:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:28:50 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:28:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:28:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:28:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:28:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:28:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:28:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:28:54 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:28:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 577 ms
+Mar 1, 2014 9:28:54 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:28:54 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:28:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:28:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:28:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:28:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:28:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:28:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:28:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:28:54 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 550 ms
+Mar 1, 2014 9:29:03 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+The absolute uri: http://java.sun.com/jsp/jstl/core cannot be resolved in either web.xml or the jar files deployed with this applicationMar 1, 2014 9:29:27 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:29:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:29:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:29:27 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:29:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:29:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:29:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:29:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:29:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:29:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:29:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:29:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 559 ms
+Mar 1, 2014 9:29:31 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:29:31 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:29:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:29:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:29:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:29:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:29:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:29:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:29:31 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:29:31 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 579 ms
+Mar 1, 2014 9:29:38 PM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+The absolute uri: http://java.sun.com/jsp/jstl/core cannot be resolved in either web.xml or the jar files deployed with this applicationMar 1, 2014 9:30:04 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:30:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:04 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:30:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:08 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:30:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:08 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:08 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 546 ms
+Mar 1, 2014 9:30:08 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:30:08 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:30:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:30:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:30:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:30:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:30:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:30:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 565 ms
+Mar 1, 2014 9:30:47 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:30:47 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:47 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:47 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:30:47 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:47 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:47 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:47 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:50 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:30:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 541 ms
+Mar 1, 2014 9:30:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:30:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:30:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:30:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:30:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:30:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:30:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:30:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:30:51 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 554 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+LinkedList cannot be resolved to a type
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: LinkedList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+63: for(String security : tradeSys.getAllSecurities()){
+64: %>
+65: <p> <%=security %> </p> <br>
+
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: LinkedList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+63: for(String security : tradeSys.getAllSecurities()){
+64: %>
+65: <p> <%=security %> </p> <br>
+
+
+Stacktrace:Mar 1, 2014 9:31:52 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:31:52 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:31:52 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:31:52 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:31:52 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:31:52 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:31:52 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:31:52 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:32:44 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:32:44 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:32:44 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:32:44 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 540 ms
+Mar 1, 2014 9:32:44 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:32:44 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:32:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:32:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:32:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:32:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:32:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:32:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:32:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:32:45 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 557 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: ArrayList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+63: for(String security : tradeSys.getAllSecurities()){
+64: %>
+65: <p> <%=security %> </p> <br>
+
+
+Stacktrace:Mar 1, 2014 9:33:44 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:33:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:33:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:33:44 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:33:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:33:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:33:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:33:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:33:47 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:33:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:33:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:33:48 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 537 ms
+Mar 1, 2014 9:33:48 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:33:48 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:33:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:33:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:33:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:33:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:33:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:33:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:33:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:33:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 547 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 62 in the jsp file: /trade.jsp
+OrderBean cannot be resolved to a type
+59: 
+60: <h2> Buyorders </h2>
+61: <%
+62: ArrayList<OrderBean> buyOrders = tradeSys.getBuyOrders();
+63: for(String security : tradeSys.getAllSecurities()){
+64: %>
+65: <p> <%=security %> </p> <br>
+
+
+Stacktrace:Mar 1, 2014 9:35:55 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:35:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:35:55 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:35:55 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:35:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:35:55 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:35:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:35:55 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:35:58 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:35:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:35:58 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:35:58 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 546 ms
+Mar 1, 2014 9:35:58 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:35:58 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:35:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:35:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:35:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:35:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:35:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:35:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:35:59 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:35:59 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 576 ms
+Mar 1, 2014 9:36:44 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:36:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:36:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:36:44 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:36:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:36:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:36:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:36:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:36:47 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:36:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:36:48 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:36:48 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 547 ms
+Mar 1, 2014 9:36:48 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:36:48 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:36:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:36:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:36:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:36:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:36:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:36:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:36:48 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:36:48 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 570 ms
+Unable to compile class for JSP: 
+
+An error occurred at line: 65 in the jsp file: /trade.jsp
+Syntax error on token ";", delete this token
+62: <%
+63: for(OrderBean order : tradeSys.getBuyOrders()){
+64: %>
+65: <p> <%=order.getName(); %> </p> <br>
+66: <%}%>
+67: 
+68: 
+
+
+Stacktrace:Mar 1, 2014 9:38:09 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:38:09 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:38:09 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:38:09 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:38:09 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:38:09 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:38:09 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:38:09 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:38:13 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:38:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:38:14 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:38:14 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 537 ms
+Mar 1, 2014 9:38:14 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:38:14 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:38:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:38:15 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,171] milliseconds.
+Mar 1, 2014 9:38:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:38:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:38:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:38:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:38:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:38:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:38:15 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1713 ms
+Mar 1, 2014 9:39:03 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:39:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:03 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:03 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:39:03 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:03 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:03 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:03 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:39:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 538 ms
+Mar 1, 2014 9:39:07 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:39:07 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:39:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:39:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:39:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:39:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:39:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:39:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:07 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 563 ms
+Mar 1, 2014 9:39:38 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:39:38 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:38 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:38 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:39:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:38 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:38 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:42 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:39:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:42 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 544 ms
+Mar 1, 2014 9:39:42 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:39:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:39:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:39:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:39:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:39:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:39:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:39:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:39:42 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:39:42 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 569 ms
+Mar 1, 2014 9:43:00 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:43:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:43:00 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:43:01 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:43:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:43:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:43:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:43:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:43:04 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:43:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:43:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:43:04 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 536 ms
+Mar 1, 2014 9:43:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:43:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:43:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:43:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:43:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:43:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:43:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:43:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:43:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:43:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 540 ms
+Mar 1, 2014 9:45:44 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:45:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:45:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:45:44 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:45:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:45:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:45:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:45:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:45:49 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:45:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:45:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:45:49 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 553 ms
+Mar 1, 2014 9:45:49 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:45:49 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:45:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:45:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:45:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:45:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:45:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:45:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:45:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:45:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 560 ms
+Mar 1, 2014 9:48:06 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:48:06 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:48:06 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:48:06 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:48:07 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:48:07 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:48:07 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:48:07 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:48:10 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:48:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:48:10 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:48:10 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 545 ms
+Mar 1, 2014 9:48:10 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:48:10 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:48:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:48:11 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,091] milliseconds.
+Mar 1, 2014 9:48:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:48:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:48:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:48:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:48:12 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:48:12 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:48:12 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1657 ms
+Mar 1, 2014 9:49:01 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:49:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:49:01 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:49:01 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:49:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:49:01 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:49:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:49:01 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:49:04 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:49:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:49:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:49:04 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 536 ms
+Mar 1, 2014 9:49:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:49:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:49:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:49:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:49:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:49:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:49:05 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:49:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:49:05 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:49:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 549 ms
+Mar 1, 2014 9:54:56 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:54:56 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:54:56 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:54:56 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:54:56 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:54:56 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:54:56 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:54:56 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:55:00 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:55:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:55:00 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:55:00 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 544 ms
+Mar 1, 2014 9:55:00 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:55:00 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:55:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:55:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:55:00 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:55:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:55:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:55:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:55:01 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:55:01 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 553 ms
+Mar 1, 2014 9:58:20 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 9:58:20 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:58:20 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:58:20 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 9:58:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:58:20 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:58:20 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:58:20 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:58:23 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 9:58:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:58:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:58:23 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 547 ms
+Mar 1, 2014 9:58:23 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 9:58:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 9:58:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 9:58:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 9:58:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 9:58:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 9:58:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 9:58:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 9:58:24 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 9:58:24 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 547 ms
+Mar 1, 2014 10:00:10 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:00:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:00:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:00:10 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:00:10 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:00:10 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:00:10 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:00:10 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:00:13 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:00:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:00:13 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:00:13 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 542 ms
+Mar 1, 2014 10:00:13 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:00:13 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:00:13 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:00:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:00:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:00:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:00:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:00:14 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:00:14 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:00:14 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 556 ms
+Mar 1, 2014 10:03:46 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:03:46 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:03:46 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:03:46 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:03:46 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:03:46 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:03:46 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:03:46 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:03:50 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:03:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:03:50 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:03:50 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 590 ms
+Mar 1, 2014 10:03:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:03:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:03:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:03:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:03:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:03:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:03:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:03:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:03:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:03:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 552 ms
+Mar 1, 2014 10:06:23 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:06:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:06:23 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:06:23 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:06:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:06:23 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:06:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:06:23 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:06:27 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:06:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:06:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:06:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 542 ms
+Mar 1, 2014 10:06:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:06:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:06:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:06:29 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,237] milliseconds.
+Mar 1, 2014 10:06:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:06:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:06:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:06:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:06:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:06:30 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:06:30 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2801 ms
+Mar 1, 2014 10:07:41 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:07:41 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:07:41 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:07:41 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:07:41 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:07:41 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:07:41 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:07:41 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:07:44 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:07:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:07:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:07:45 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 545 ms
+Mar 1, 2014 10:07:45 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:07:45 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:07:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:07:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:07:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:07:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:07:45 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:07:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:07:45 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:07:45 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 582 ms
+Mar 1, 2014 10:14:18 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:14:18 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:14:18 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:14:18 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:14:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:14:18 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:14:18 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:14:18 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:14:21 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:14:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:14:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:14:21 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 533 ms
+Mar 1, 2014 10:14:21 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:14:21 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:14:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:14:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:14:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:14:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:14:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:14:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:14:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:14:22 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 553 ms
+Mar 1, 2014 10:15:43 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:15:43 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:15:43 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:15:43 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:15:43 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:15:43 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:15:43 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:15:43 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:15:46 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:15:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:15:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:15:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 545 ms
+Mar 1, 2014 10:15:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:15:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:15:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:15:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:15:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:15:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:15:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:15:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:15:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:15:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 577 ms
+Mar 1, 2014 10:16:58 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:16:58 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:16:58 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:16:58 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:16:58 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:16:58 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:16:58 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:16:58 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:17:02 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:17:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:17:02 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:17:02 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 544 ms
+Mar 1, 2014 10:17:02 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:17:02 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:17:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:17:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:17:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:17:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:17:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:17:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:17:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:17:02 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 563 ms
+Mar 1, 2014 10:23:04 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:23:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:23:04 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:23:04 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:23:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:23:04 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:23:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:23:04 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:23:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:23:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:23:07 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:23:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 548 ms
+Mar 1, 2014 10:23:08 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:23:08 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:23:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:23:10 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,828] milliseconds.
+Mar 1, 2014 10:23:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:23:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:23:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:23:10 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:23:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:23:10 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:23:10 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2380 ms
+Mar 1, 2014 10:25:58 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:25:58 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:25:58 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:25:58 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:25:58 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:25:58 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:25:58 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:25:58 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:26:01 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:26:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:26:01 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:26:01 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 543 ms
+Mar 1, 2014 10:26:01 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:26:01 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:26:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:26:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:26:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:26:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:26:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:26:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:26:02 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:26:02 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 563 ms
+Mar 1, 2014 10:27:42 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 10:27:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:27:42 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:27:42 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 10:27:43 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:27:43 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:27:43 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:27:43 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:27:46 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
+Mar 1, 2014 10:27:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:27:46 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:27:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 549 ms
+Mar 1, 2014 10:27:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 1, 2014 10:27:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
+Mar 1, 2014 10:27:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
+Mar 1, 2014 10:27:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
+Mar 1, 2014 10:27:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
+Mar 1, 2014 10:27:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
+Mar 1, 2014 10:27:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
+Mar 1, 2014 10:27:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 10:27:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 10:27:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 573 ms
