@@ -35,7 +35,7 @@ public class TradeController extends HttpServlet{
 		HttpSession session = request.getSession();
 		if (session.isNew()) {
 			session.setAttribute("user", new bean.UserBean());
-			RequestDispatcher rd = sc.getRequestDispatcher("/index.html");
+			RequestDispatcher rd = sc.getRequestDispatcher("/trade.jsp");
 			try {
 				rd.forward(request, response);
 				return;
@@ -77,7 +77,7 @@ public class TradeController extends HttpServlet{
 				order.setName(request.getParameter("security"));
 				order.setPrice(new Float(request.getParameter("price")));
 				order.setAmount(new Integer(request.getParameter("amount")));
-				order.setUserId(user.getNickname());
+				order.setUserId(request.getParameter("user"));
 				if (type.equals("B")) {
 					tradeSys.addBuyOrder(order);
 				} else if (type.equals("S")) {

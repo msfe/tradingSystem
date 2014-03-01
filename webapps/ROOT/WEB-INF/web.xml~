@@ -29,12 +29,12 @@
   </description>
 
 <servlet>
-  <servlet-name>HelloWorld</servlet-name>
-  <servlet-class>HelloWorld</servlet-class>
+  <servlet-name>TradeController</servlet-name>
+  <servlet-class>TradeController</servlet-class>
 </servlet>
 <servlet-mapping>
-  <servlet-name>HelloWorld</servlet-name>
-  <url-pattern>/HelloWorld</url-pattern>
+  <servlet-name>TradeController</servlet-name>
+  <url-pattern>/TradeController</url-pattern>
 </servlet-mapping>
 
 </web-app>

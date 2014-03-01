@@ -19,8 +19,8 @@ public class TradeSystemBean {
 		buyOrders = new ArrayList<OrderBean>();
 		allSecurities = new ArrayList<String>();
 		closedOrders = new ArrayList<ClosedOrderBean>();
-
-		if (DEBUG) {
+		
+		if(DEBUG){
 			addSecurity("Ericsson");
 			addSecurity("Telia");
 			addSecurity("Tieto");
@@ -28,8 +28,7 @@ public class TradeSystemBean {
 	}
 
 	public void addSecurity(String security) {
-		if (allSecurities.contains(security.trim().toUpperCase()))
-			;
+		if(allSecurities.contains(security.trim().toUpperCase()));
 		allSecurities.add(security.trim().toUpperCase());
 	}
 
@@ -39,9 +38,7 @@ public class TradeSystemBean {
 
 	/**
 	 * Adds a new sellOrder and if it is possible close a deal instantly
-	 * 
-	 * @param sellOrder
-	 *            A new sell Order
+	 * @param sellOrder A new sell Order
 	 */
 	public void addSaleOrder(OrderBean sellOrder) {
 		saleOrders.add(sellOrder);
@@ -54,9 +51,7 @@ public class TradeSystemBean {
 
 	/**
 	 * Adds a new buyOrder and if it is possible close a deal instantly
-	 * 
-	 * @param buyOrder
-	 *            a new buyOrder
+	 * @param buyOrder a new buyOrder
 	 */
 	public void addBuyOrder(OrderBean buyOrder) {
 		buyOrders.add(buyOrder);
@@ -68,21 +63,21 @@ public class TradeSystemBean {
 	}
 
 	/**
-	 * A method that closes a deal based on a buy order and a sell order The
-	 * price will be set to whatever the buyer can accept to pay as long as it
-	 * is a minimum of what the seller is expected to get in return.
+	 * A method that closes a deal based on a buy order and a sell order
+	 * The price will be set to whatever the buyer can accept to pay as long
+	 * as it is a minimum of what the seller is expected to get in return.
 	 * 
 	 * @param buyOrder
 	 * @param sellOrder
 	 * @return
 	 */
 	private boolean closeDeal(OrderBean buyOrder, OrderBean sellOrder) {
-		if (buyOrder.getPrice() >= sellOrder.getPrice()) {
+		if (buyOrder.getPrice() > sellOrder.getPrice()) {
 			ClosedOrderBean closedOrder = new ClosedOrderBean(buyOrder,
 					sellOrder);
 
 			closedOrders.add(closedOrder);
-
+			
 			// Adjust the buy/sell order size or remove if empty
 			if (closedOrder.getAmount() >= buyOrder.getAmount()) {
 				buyOrders.remove(buyOrder);
@@ -100,16 +95,12 @@ public class TradeSystemBean {
 				}
 			} else { // saleOrder set the limit for the amount, hence removed.
 				saleOrders.remove(sellOrder);
-				if (closedOrder.getAmount() >= buyOrder.getAmount()) {
-					buyOrders.remove(buyOrder);
-				} else {
-					buyOrder.setAmount(buyOrder.getAmount()
-							- closedOrder.getAmount());
-					OrderBean newOrderMatch = matchingOrderExists(buyOrder,
-							saleOrders, OrderStatus.buy);
-					if (newOrderMatch != null) {
-						closeDeal(buyOrder, newOrderMatch);
-					}
+				buyOrder.setAmount(buyOrder.getAmount()
+						- closedOrder.getAmount());
+				OrderBean newOrderMatch = matchingOrderExists(buyOrder,
+						saleOrders, OrderStatus.buy);
+				if (newOrderMatch != null) {
+					closeDeal(buyOrder, newOrderMatch);
 				}
 			}
 			return true;
@@ -118,36 +109,33 @@ public class TradeSystemBean {
 		return false;
 	}
 
+
 	private OrderBean matchingOrderExists(OrderBean order,
 			ArrayList<OrderBean> orderList, OrderStatus status) {
 		String name = order.getName();
 		float price = order.getPrice();
 		for (OrderBean iterateOrder : orderList) {
-			if (iterateOrder.getName().equals(name)) {
+			if (iterateOrder.getName() == name) {
 				if (status == OrderStatus.sell
-						&& iterateOrder.getPrice() >= price) {
+						&& iterateOrder.getPrice() > price) {
 					return iterateOrder;
-				} else if (status == OrderStatus.buy
-						&& iterateOrder.getPrice() <= price) {
+				} else if (status == OrderStatus.buy && iterateOrder.getPrice() < price) {
 					return iterateOrder;
 				}
 			}
 		}
 		return null;
 	}
-
-	public ArrayList<String> getAllSecurities() {
+	
+	public ArrayList<String> getAllSecurities(){
 		return allSecurities;
 	}
-
-	public ArrayList<OrderBean> getBuyOrders() {
+	public ArrayList<OrderBean> getBuyOrders(){
 		return buyOrders;
 	}
-
-	public ArrayList<OrderBean> getSaleOrders() {
+	public ArrayList<OrderBean> getSaleOrders(){
 		return saleOrders;
 	}
-
 	public ArrayList<ClosedOrderBean> getClosedOrders() {
 		return closedOrders;
 	}

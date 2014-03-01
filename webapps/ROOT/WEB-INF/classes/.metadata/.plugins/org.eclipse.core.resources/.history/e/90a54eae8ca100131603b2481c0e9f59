@@ -22,7 +22,7 @@ public class OrderBean {
 		return amount;
 	}
 	
-	public String getUserId(){
+	public String getuserId(){
 		return userId;
 	}
 	

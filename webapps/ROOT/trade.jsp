@@ -1,5 +1,6 @@
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="bean.OrderBean" %>
+<%@ page import="bean.ClosedOrderBean" %>
 
 
 <html>
@@ -58,13 +59,64 @@ Värdepapper: <select name="security">
 <input type="submit" value="Utför">
 </form>
 
-<h2> Buyorders </h2>
+<h2> Buy Orders </h2>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Price</th> 
+  <th>Amount</th>
+  <th>Buyer</th>
+</tr>
 <%
 for(OrderBean order : tradeSys.getBuyOrders()){
 %>
-<p> <%=order.getName() %> </p>
+<tr>
+<td><%=order.getName() %></td>
+<td><%=order.getPrice() %></td>
+<td><%=order.getAmount() %></td>
+<td><%=order.getUserId() %></td>
 <%}%>
+</table>
 
+<h2> Sale Orders </h2>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Price</th> 
+  <th>Amount</th>
+  <th>Seller</th>
+</tr>
+<%
+for(OrderBean order : tradeSys.getSaleOrders()){
+%>
+<tr>
+<td><%=order.getName() %></td>
+<td><%=order.getPrice() %></td>
+<td><%=order.getAmount() %></td>
+<td><%=order.getUserId() %></td>
+<%}%>
+</table>
+
+<h2> Closed Orders </h2>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Price</th> 
+  <th>Amount</th>
+  <th>Buyer</th>
+  <th>Seller</th>
+</tr>
+<%
+for(ClosedOrderBean order : tradeSys.getClosedOrders()){
+%>
+<tr>
+<td><%=order.getName() %></td>
+<td><%=order.getPrice() %></td>
+<td><%=order.getAmount() %></td>
+<td><%=order.getUserId() %></td>
+<td><%=order.getUserIdSeller() %></td>
+<%}%>
+</table>
 
 </body>
 

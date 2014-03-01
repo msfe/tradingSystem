@@ -10,11 +10,7 @@ public class ClosedOrderBean extends OrderBean {
 	 */
 	public ClosedOrderBean(OrderBean buyOrder, OrderBean sellOrder) {
 		super();
-		setName(buyOrder.getName());
-		setPrice(buyOrder.getPrice());
-		setAmount(Math.min(buyOrder.getAmount(),sellOrder.getAmount()));
-		setUserId(buyOrder.getUserId());
-		setUserIdSeller(sellOrder.getUserId());
+		
 	}
 
 	public String getUserIdSeller() {

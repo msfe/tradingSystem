@@ -77,7 +77,7 @@ public class TradeController extends HttpServlet{
 				order.setName(request.getParameter("security"));
 				order.setPrice(new Float(request.getParameter("price")));
 				order.setAmount(new Integer(request.getParameter("amount")));
-				order.setUserId(user.getNickname());
+				order.setUserId(request.getParameter("user"));
 				if (type.equals("B")) {
 					tradeSys.addBuyOrder(order);
 				} else if (type.equals("S")) {
