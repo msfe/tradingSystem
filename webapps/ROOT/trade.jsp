@@ -8,6 +8,13 @@
 
 <body>
 
+<%
+bean.TradeSystemBean tradeSys = (bean.TradeSystemBean)pageContext.getServletContext().getAttribute("tradingsystem");
+bean.UserBean user = (bean.UserBean)pageContext.getSession().getAttribute("user");
+bean.OrderBean order;
+%>
+
+
 <%=request.getParameter("message")%>
 
 <h3>Addera ett värdepapper</h3>
@@ -21,9 +28,11 @@
 <form action="/TradeController">
 <input type="hidden" name="action" value="addOrder">
 Värdepapper: <select name="security">
-<option value="Ericsson">Ericsson</option>
-<option value="Ericsson">Telia</option>
-<option value="Ericsson">Volvo</option>
+<%
+for(String security : tradeSys.getAllSecurities()){
+%>
+<option value="<%=security %>"><%=security %></option>
+<%}%>
 </select><br>
 Köp: <input type="radio" name="buyOrSell" value="B" checked>
 Sälj: <input type="radio" name="buyOrSell" value="S"><br>

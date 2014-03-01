@@ -52,8 +52,6 @@ public class TradeController extends HttpServlet {
 				out.println(e.getMessage());
 			}
 		}
-		
-		
 
 		String message = "";
 
@@ -61,9 +59,10 @@ public class TradeController extends HttpServlet {
 			bean.UserBean user = (bean.UserBean) session.getAttribute("user");
 			bean.TradeSystemBean tradeSys = (bean.TradeSystemBean) sc
 					.getAttribute("tradingsystem");
-			
+
 			if (request.getParameter("action").equals("addSecurity")) {
-				tradeSys.addSecurity(request.getParameter("security"));
+				tradeSys.addSecurity(request.getParameter("security")); // TODO add
+																// right param
 				message = "addSecurity";
 			}
 

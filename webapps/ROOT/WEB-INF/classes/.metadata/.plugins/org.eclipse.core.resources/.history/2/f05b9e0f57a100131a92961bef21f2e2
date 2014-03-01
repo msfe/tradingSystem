@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class TradeSystemBean {
 
-	private static final boolean DEBUG = true;
+	private static final boolean DEBUG = false;
 	private ArrayList<OrderBean> saleOrders;
 	private ArrayList<OrderBean> buyOrders;
 	private ArrayList<String> allSecurities;

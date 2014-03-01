@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class TradeSystemBean {
 
-	private static final boolean DEBUG = true;
 	private ArrayList<OrderBean> saleOrders;
 	private ArrayList<OrderBean> buyOrders;
 	private ArrayList<String> allSecurities;
@@ -19,12 +18,6 @@ public class TradeSystemBean {
 		buyOrders = new ArrayList<OrderBean>();
 		allSecurities = new ArrayList<String>();
 		closedOrders = new ArrayList<ClosedOrderBean>();
-		
-		if(DEBUG){
-			addSecurity("Ericsson");
-			addSecurity("Telia");
-			addSecurity("Tieto");
-		}
 	}
 
 	public void addSecurity(String security) {
@@ -128,10 +121,6 @@ public class TradeSystemBean {
 			}
 		}
 		return null;
-	}
-	
-	public ArrayList<String> getAllSecurities(){
-		return allSecurities;
 	}
 
 }
