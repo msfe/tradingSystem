@@ -109,6 +109,9 @@ public class TradeSystemBean {
 		return false;
 	}
 
+	public ArrayList<ClosedOrderBean> getClosedOrders() {
+		return closedOrders;
+	}
 
 	private OrderBean matchingOrderExists(OrderBean order,
 			ArrayList<OrderBean> orderList, OrderStatus status) {
@@ -129,15 +132,6 @@ public class TradeSystemBean {
 	
 	public ArrayList<String> getAllSecurities(){
 		return allSecurities;
-	}
-	public ArrayList<OrderBean> getBuyOrders(){
-		return buyOrders;
-	}
-	public ArrayList<OrderBean> getSaleOrders(){
-		return saleOrders;
-	}
-	public ArrayList<ClosedOrderBean> getClosedOrders() {
-		return closedOrders;
 	}
 
 }

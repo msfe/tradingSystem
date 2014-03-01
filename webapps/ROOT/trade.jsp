@@ -1,3 +1,5 @@
+<%@ page import="java.util.ArrayList" %>
+
 <html>
 
 <head>
@@ -11,7 +13,8 @@
 <%
 bean.TradeSystemBean tradeSys = (bean.TradeSystemBean)pageContext.getServletContext().getAttribute("tradingsystem");
 bean.UserBean user = (bean.UserBean)pageContext.getSession().getAttribute("user");
-bean.OrderBean order;
+
+bean.OrderBean orderBean;
 %>
 
 
@@ -45,12 +48,21 @@ Antal: <input type="text" name="amount" value=""><br>
 <form action="/TradeController">
 <input type="hidden" name="action" value="viewTrades">
 Värdepapper: <select name="security">
-<option value="Ericsson">Ericsson</option>
-<option value="Ericsson">Telia</option>
-<option value="Ericsson">Volvo</option>
+<%for(String security : tradeSys.getAllSecurities()){
+%>
+<option value="<%=security %>"><%=security %></option>
+<%}%>
 </select><br>
 <input type="submit" value="Utför">
 </form>
+
+
+<h2> Buyorders </h2>
+<%
+for(String security : tradeSys.getAllSecurities()){
+%>
+<p> <%=security %> </p> <br>
+<%}%>
 
 
 </body>

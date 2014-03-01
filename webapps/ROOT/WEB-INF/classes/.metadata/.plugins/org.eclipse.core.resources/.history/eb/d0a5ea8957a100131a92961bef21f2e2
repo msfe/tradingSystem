@@ -52,6 +52,8 @@ public class TradeController extends HttpServlet {
 				out.println(e.getMessage());
 			}
 		}
+		
+		
 
 		String message = "";
 
@@ -59,22 +61,28 @@ public class TradeController extends HttpServlet {
 			bean.UserBean user = (bean.UserBean) session.getAttribute("user");
 			bean.TradeSystemBean tradeSys = (bean.TradeSystemBean) sc
 					.getAttribute("tradingsystem");
-
+			
 			if (request.getParameter("action").equals("addSecurity")) {
 				tradeSys.addSecurity(request.getParameter("security"));
 				message = "addSecurity";
 			}
 
 			if (request.getParameter("action").equals("addOrder")) {
-				String type = request.getParameter("buyOrSell");
+				String type = request.getParameter(""); // TODO add right param
 				OrderBean order = new OrderBean();
-				order.setName(request.getParameter("security"));
-				order.setPrice(new Float(request.getParameter("price")));
-				order.setAmount(new Integer(request.getParameter("amount")));
-				order.setUserId(request.getParameter("user"));
-				if (type == "B") {
+				order.setName(request.getParameter("")); // TODO add right param
+				order.setPrice(new Float(request.getParameter(""))); // TODO add
+																		// right
+																		// param
+				order.setAmount(new Integer(request.getParameter(""))); // TODO
+																		// add
+																		// right
+																		// param
+				order.setUserId(request.getParameter("")); // TODO add right
+															// param
+				if (type == "buy") {
 					tradeSys.addBuyOrder(order);
-				} else if (type == "S") {
+				} else if (type == "sell") {
 					tradeSys.addSaleOrder(order);
 				}
 				message = "addOrder";

@@ -62,6 +62,7 @@ public class TradeController extends HttpServlet {
 
 			if (request.getParameter("action").equals("addSecurity")) {
 				tradeSys.addSecurity(request.getParameter("security"));
+				tradeSys.getAllSecurities();
 				message = "addSecurity";
 			}
 
