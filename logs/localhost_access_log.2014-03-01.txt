@@ -6,3 +6,17 @@
 127.0.0.1 - - [01/Mar/2014:12:54:14 +0100] "GET /TradeController?action=addOrder&security=Ericsson&buyOrSell=B&price=10&amount=100 HTTP/1.1" 200 1350
 127.0.0.1 - - [01/Mar/2014:12:54:26 +0100] "GET /TradeController?action=addOrder&security=Ericsson&buyOrSell=S&price=10&amount=100 HTTP/1.1" 200 1350
 127.0.0.1 - - [01/Mar/2014:12:54:27 +0100] "GET /TradeController?action=viewTrades&security=Ericsson HTTP/1.1" 200 1352
+127.0.0.1 - - [01/Mar/2014:14:59:55 +0100] "GET /trade.jsp HTTP/1.1" 200 1346
+127.0.0.1 - - [01/Mar/2014:15:00:16 +0100] "GET /tradecontroller HTTP/1.1" 404 981
+127.0.0.1 - - [01/Mar/2014:15:00:19 +0100] "GET /trade.jsp HTTP/1.1" 200 1346
+127.0.0.1 - - [01/Mar/2014:16:07:17 +0100] "GET /index.jsp HTTP/1.1" 200 11444
+127.0.0.1 - - [01/Mar/2014:16:07:17 +0100] "GET /tomcat.png HTTP/1.1" 200 5103
+127.0.0.1 - - [01/Mar/2014:16:07:17 +0100] "GET /tomcat.css HTTP/1.1" 200 5926
+127.0.0.1 - - [01/Mar/2014:16:07:17 +0100] "GET /bg-nav.png HTTP/1.1" 200 1401
+127.0.0.1 - - [01/Mar/2014:16:07:17 +0100] "GET /asf-logo.png HTTP/1.1" 200 17811
+127.0.0.1 - - [01/Mar/2014:16:07:18 +0100] "GET /bg-middle.png HTTP/1.1" 200 1918
+127.0.0.1 - - [01/Mar/2014:16:07:18 +0100] "GET /bg-upper.png HTTP/1.1" 200 3103
+127.0.0.1 - - [01/Mar/2014:16:07:18 +0100] "GET /bg-button.png HTTP/1.1" 200 713
+127.0.0.1 - - [01/Mar/2014:16:07:22 +0100] "GET /trade.jsp HTTP/1.1" 200 1346
+127.0.0.1 - - [01/Mar/2014:16:13:21 +0100] "GET /trade_index.html HTTP/1.1" 200 183
+127.0.0.1 - - [01/Mar/2014:16:13:25 +0100] "GET /TradeController?nickname=Mattias HTTP/1.1" 200 1342

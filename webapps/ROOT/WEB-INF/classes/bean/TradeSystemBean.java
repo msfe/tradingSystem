@@ -21,7 +21,8 @@ public class TradeSystemBean {
 	}
 
 	public void addSecurity(String security) {
-		allSecurities.add(security);
+		if(allSecurities.contains(security.trim().toUpperCase()));
+		allSecurities.add(security.trim().toUpperCase());
 	}
 
 	public boolean securityExists(String security) {

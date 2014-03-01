@@ -1,0 +1,86 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+public class TradeController extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8919025606473395622L;
+
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws IOException {
+
+		PrintWriter out = response.getWriter();
+		ServletContext sc = getServletContext();
+		synchronized (this) {
+			if (sc.getAttribute("tradingsystem") == null) {
+				sc.setAttribute("tradingsystem", new bean.TradeSystemBean());
+			}
+		}
+
+		HttpSession session = request.getSession();
+		if (session.isNew()) {
+			session.setAttribute("user", new bean.UserBean());
+			RequestDispatcher rd = sc.getRequestDispatcher("/forum_index.html");
+			try {
+				rd.forward(request, response);
+			} catch (ServletException e) {
+				out.println(e.getMessage());
+			}
+		}
+		
+		if(request.getParameter("email")!=null){
+			 bean.User u = (bean.User)session.getAttribute("user");
+			 u.setNickname(request.getParameter("nickname"));
+			 u.setEmail(request.getParameter("email"));
+			 RequestDispatcher rd = 
+			sc.getRequestDispatcher("/forum_view.jsp");
+			 try{
+			rd.forward(request, response);
+			 }
+			 catch(ServletException e){
+			out.println(e.getMessage());
+			 }
+			}
+		
+
+		String message = "";
+
+		if (request.getParameter("action").equals("addSecurity")) {
+			// Kod för att addera ett slags värdepapper;
+			message = "addSecurity";
+		}
+
+		if (request.getParameter("action").equals("addOrder")) {
+			// Kod för att lägga en köp eller säljorder
+			// samt eventuellt skapa en trade
+			message = "addOrder";
+		}
+
+		if (request.getParameter("action").equals("viewTrades")) {
+			// Kod för att lägga en köp eller säljorder
+			message = "viewTrades";
+		}
+
+		try {
+			RequestDispatcher rd = request
+					.getRequestDispatcher("trade.jsp?message=" + message);
+			rd.forward(request, response);
+		} catch (ServletException e) {
+			System.out.print(e.getMessage());
+		} catch (IOException e) {
+			System.out.print(e.getMessage());
+		}
+		out.close();
+	}
+
+}

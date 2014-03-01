@@ -1,0 +1,4 @@
+1393685733920	Rename field 'userID'
+1393685738038	Rename local variable 'userID'
+1393686009907	Rename method 'setUserID'
+1393686015286	Rename method 'getuserID'

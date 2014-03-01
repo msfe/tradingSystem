@@ -5,13 +5,9 @@ public class OrderBean {
 	private String name;
 	private float price;
 	private int amount;
-	private String userID;
+	private String userId;
 
-	public OrderBean(String name, float price, int amount, String userID){
-		this.name = name;
-		this.price = price;
-		this.amount = amount;
-		this.userID = userID;
+	public OrderBean(){
 	}
 	
 	public String getName(){
@@ -26,13 +22,28 @@ public class OrderBean {
 		return amount;
 	}
 	
-	public String getuserID(){
-		return userID;
+	public String getuserId(){
+		return userId;
+	}
+	
+	
+	public void setName(String name){
+		this.name = name;
+	}
+
+	public void setPrice(float price){
+		this.price = price;
 	}
 	
 	public void setAmount(int amount){
 		this.amount = amount;
 	}
+	
+	public void setUserId(String userId){
+		this.userId = userId;
+	}
+	
+	
 
 
 }
