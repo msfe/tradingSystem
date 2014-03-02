@@ -9,15 +9,19 @@ public class TradeSystemBean {
 	private ArrayList<OrderBean> buyOrders;
 	private ArrayList<String> allSecurities;
 	private ArrayList<ClosedOrderBean> closedOrders;
+	
+	private TradeSystemDBBean db;
 
 	enum OrderStatus {
 		buy, sell
 	};
 
 	public TradeSystemBean() {
+		db = new TradeSystemDBBean();
+		
 		saleOrders = new ArrayList<OrderBean>();
 		buyOrders = new ArrayList<OrderBean>();
-		allSecurities = new ArrayList<String>();
+		allSecurities = db.getSecurities();
 		closedOrders = new ArrayList<ClosedOrderBean>();
 
 		if (DEBUG) {
@@ -28,13 +32,11 @@ public class TradeSystemBean {
 	}
 
 	public void addSecurity(String security) {
-		if (allSecurities.contains(security.trim().toUpperCase()))
-			;
+		if (allSecurities.contains(security.trim().toUpperCase())){
+			return;
+		}
+		db.addSecurity(security.trim().toUpperCase());
 		allSecurities.add(security.trim().toUpperCase());
-	}
-
-	public boolean securityExists(String security) {
-		return allSecurities.contains(security);
 	}
 
 	/**
@@ -45,6 +47,7 @@ public class TradeSystemBean {
 	 */
 	public void addSaleOrder(OrderBean sellOrder) {
 		saleOrders.add(sellOrder);
+		db.addOrder(sellOrder, OrderStatus.sell);
 		OrderBean matchingBuyOrder = matchingOrderExists(sellOrder, buyOrders,
 				OrderStatus.sell);
 		if (matchingBuyOrder != null) {
@@ -60,6 +63,7 @@ public class TradeSystemBean {
 	 */
 	public void addBuyOrder(OrderBean buyOrder) {
 		buyOrders.add(buyOrder);
+		db.addOrder(buyOrder, OrderStatus.buy);
 		OrderBean matchingSellOrder = matchingOrderExists(buyOrder, saleOrders,
 				OrderStatus.buy);
 		if (matchingSellOrder != null) {
@@ -121,7 +125,7 @@ public class TradeSystemBean {
 	private OrderBean matchingOrderExists(OrderBean order,
 			ArrayList<OrderBean> orderList, OrderStatus status) {
 		String name = order.getName();
-		float price = order.getPrice();
+		double price = order.getPrice();
 		for (OrderBean iterateOrder : orderList) {
 			if (iterateOrder.getName().equals(name)) {
 				if (status == OrderStatus.sell

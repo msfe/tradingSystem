@@ -1,0 +1,70 @@
+package bean;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.sql.DataSource;
+
+public class TradeSystemDBBean {
+
+	private Connection conn;
+
+	enum OrderStatus {
+		buy, sell
+	};
+
+	public TradeSystemDBBean() {
+		try {
+			Context initCtx = new InitialContext();
+			Context envCtx = (Context) initCtx.lookup("java:comp/env");
+			DataSource ds = (DataSource) envCtx.lookup("jdbc/db");
+			conn = ds.getConnection();
+		} catch (SQLException e) {
+		} catch (NamingException e) {
+		}
+	}
+
+	public void close() {
+		try {
+			conn.close();
+		} catch (SQLException e) {
+		}
+	}
+
+	public void addSecurity(String security) {
+		Statement stmt = null;
+		ResultSet rs = null;
+		String query = null;
+		query = "insert into securities (name) VALUES ('" + security + "')";
+		try {
+			Statement stmt = conn.createStatement();
+			rs = stmt.executeQuery(query);
+		} catch (SQLException e) {
+			System.err.println("Failed to execute query: " + query);
+		}
+	}
+
+	public ArrayList<String> getSecurities() {
+		ArrayList<String> securities = new ArrayList<String>();
+		try {
+			Statement stmt = conn.createStatement();
+			ResultSet rs = null;
+			String query = "select * from securities";
+			rs = stmt.executeQuery(query);
+			while (rs.next()) {
+				String secutity = rs.getString("name");
+				securities.add(secutity);
+			}
+		} catch (SQLException e) {
+		}
+		return securities;
+	}
+
+}

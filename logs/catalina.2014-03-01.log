@@ -4354,3 +4354,19 @@ Mar 1, 2014 11:21:45 PM org.apache.coyote.AbstractProtocol start
 INFO: Starting ProtocolHandler ["ajp-bio-8009"]
 Mar 1, 2014 11:21:45 PM org.apache.catalina.startup.Catalina start
 INFO: Server startup in 551 ms
+Mar 1, 2014 11:26:59 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 1, 2014 11:26:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 11:26:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 11:26:59 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 1, 2014 11:26:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 11:26:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 1, 2014 11:26:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-1234"]
+Mar 1, 2014 11:26:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

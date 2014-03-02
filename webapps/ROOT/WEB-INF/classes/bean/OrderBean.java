@@ -3,7 +3,7 @@ package bean;
 public class OrderBean {
 
 	private String name;
-	private float price;
+	private double price;
 	private int amount;
 	private String userId;
 
@@ -14,7 +14,7 @@ public class OrderBean {
 		return name;
 	}
 
-	public float getPrice(){
+	public double getPrice(){
 		return price;
 	}
 	
@@ -31,7 +31,7 @@ public class OrderBean {
 		this.name = name;
 	}
 
-	public void setPrice(float price){
+	public void setPrice(double price){
 		this.price = price;
 	}
 	

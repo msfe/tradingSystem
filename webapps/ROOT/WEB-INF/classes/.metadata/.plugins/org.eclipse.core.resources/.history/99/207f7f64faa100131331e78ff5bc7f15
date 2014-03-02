@@ -1,0 +1,14 @@
+package bean;
+
+import java.util.ArrayList;
+
+public class TradeSystemDBBean {
+
+	private Connection conn;
+
+
+	public TradeSystemDBBean() {
+	
+	}
+
+}

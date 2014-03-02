@@ -1,0 +1,38 @@
+package bean;
+
+import java.sql.*;
+import javax.naming.*;
+import javax.sql.*;
+
+
+public class TradeSystemDBBean {
+
+	private Connection conn;
+	
+	enum OrderStatus {
+		buy, sell
+	};
+
+
+	public TradeSystemDBBean() {
+		try{
+			 Context initCtx = new InitialContext();
+			 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+			 DataSource ds = (DataSource)envCtx.lookup("jdbc/db");
+			 conn = ds.getConnection();
+			}
+			catch(SQLException e){
+			}
+			catch(NamingException e){				
+			}
+	}
+	
+	public void close(){
+		try{
+		 conn.close();
+		}
+		catch(SQLException e){
+		}
+	}
+
+}

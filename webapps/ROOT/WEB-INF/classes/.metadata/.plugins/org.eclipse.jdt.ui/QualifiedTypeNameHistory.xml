@@ -3,8 +3,9 @@
 <fullyQualifiedTypeName name="bean.ClosedOrderBean"/>
 <fullyQualifiedTypeName name="bean.TradeSystemBean.OrderStatus"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="bean.UserBean"/>
 <fullyQualifiedTypeName name="bean.TradeSystemBean"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="bean.UserBean"/>
 <fullyQualifiedTypeName name="bean.OrderBean"/>
 </qualifiedTypeNameHistroy>

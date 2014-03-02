@@ -1,0 +1,28 @@
+package bean;
+
+import com.mysql.jdbc.Connection;
+import java.sql.*;
+import javax.naming.*;
+import javax.sql.*;
+
+
+public class TradeSystemDBBean {
+
+	private Connection conn;
+
+
+	public TradeSystemDBBean() {
+		try{
+			 Context initCtx = new InitialContext();
+			 Context envCtx = (Context) initCtx.lookup("java:comp/env");
+			 DataSource ds = (DataSource)envCtx.lookup("jdbc/db");
+			 Connection conn = ds.getConnection();
+			}
+			catch(SQLException e){
+			}
+			catch(NamingException e){
+				
+			}
+	}
+
+}

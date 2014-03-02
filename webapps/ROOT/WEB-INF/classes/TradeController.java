@@ -75,7 +75,7 @@ public class TradeController extends HttpServlet{
 				String type = request.getParameter("buyOrSell");
 				OrderBean order = new OrderBean();
 				order.setName(request.getParameter("security"));
-				order.setPrice(new Float(request.getParameter("price")));
+				order.setPrice(new Double(request.getParameter("price")));
 				order.setAmount(new Integer(request.getParameter("amount")));
 				order.setUserId(user.getNickname());
 				if (type.equals("B")) {
