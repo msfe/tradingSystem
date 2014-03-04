@@ -1506,31 +1506,3 @@ Mar 2, 2014 1:43:24 PM org.apache.coyote.AbstractProtocol destroy
 INFO: Destroying ProtocolHandler ["http-bio-1234"]
 Mar 2, 2014 1:43:24 PM org.apache.coyote.AbstractProtocol destroy
 INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
-Mar 2, 2014 1:43:27 PM org.apache.catalina.core.AprLifecycleListener init
-INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64/server:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-6-openjdk-amd64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib
-Mar 2, 2014 1:43:27 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler ["http-bio-1234"]
-Mar 2, 2014 1:43:27 PM org.apache.coyote.AbstractProtocol init
-INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
-Mar 2, 2014 1:43:27 PM org.apache.catalina.startup.Catalina load
-INFO: Initialization processed in 536 ms
-Mar 2, 2014 1:43:27 PM org.apache.catalina.core.StandardService startInternal
-INFO: Starting service Catalina
-Mar 2, 2014 1:43:27 PM org.apache.catalina.core.StandardEngine startInternal
-INFO: Starting Servlet Engine: Apache Tomcat/7.0.35
-Mar 2, 2014 1:43:27 PM org.apache.catalina.startup.HostConfig deployDirectory
-INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/ROOT
-Mar 2, 2014 1:43:28 PM org.apache.catalina.startup.HostConfig deployDirectory
-INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/docs
-Mar 2, 2014 1:43:28 PM org.apache.catalina.startup.HostConfig deployDirectory
-INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/examples
-Mar 2, 2014 1:43:28 PM org.apache.catalina.startup.HostConfig deployDirectory
-INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/host-manager
-Mar 2, 2014 1:43:28 PM org.apache.catalina.startup.HostConfig deployDirectory
-INFO: Deploying web application directory /afs/nada.kth.se/home/e/u1cxhiue/tomcat/webapps/manager
-Mar 2, 2014 1:43:28 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-bio-1234"]
-Mar 2, 2014 1:43:28 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["ajp-bio-8009"]
-Mar 2, 2014 1:43:28 PM org.apache.catalina.startup.Catalina start
-INFO: Server startup in 555 ms

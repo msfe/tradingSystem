@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<item value="filter_imports;" key="filters_last_used"/>
 	<item value="/afs/nada.kth.se/home/e/u1cxhiue/tomcat/lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="true" key="group_libraries"/>
@@ -15,10 +16,39 @@
 	<section name="BuildPathsPropertyPage">
 		<item value="2" key="pageIndex"/>
 	</section>
-	<section name="quick_assist_proposal_size">
+	<section name="JavaSearchPage">
+		<item value="false" key="CASE_SENSITIVE"/>
+		<item value="11" key="INCLUDE_MASK"/>
+		<item value="2" key="HISTORY_SIZE"/>
+		<section name="HISTORY0">
+			<item value="11" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="=JavaEE_LAB/src&lt;bean{OrderBean.java[OrderBean~getPrice" key="javaElement"/>
+			<item value="bean.OrderBean.getPrice()" key="pattern"/>
+			<item value="0" key="matchLocations"/>
+			<item value="1" key="searchFor"/>
+			<item value="true" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+		<section name="HISTORY1">
+			<item value="11" key="includeMask"/>
+			<item value="2" key="limitTo"/>
+			<item value="0" key="scope"/>
+			<item value="" key="javaElement"/>
+			<item value="getPrice" key="pattern"/>
+			<item value="0" key="matchLocations"/>
+			<item value="0" key="searchFor"/>
+			<item value="false" key="isCaseSensitive"/>
+			<list key="workingSets">
+			</list>
+		</section>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
-	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	<section name="quick_assist_proposal_size">
 	</section>
 </section>

@@ -70,14 +70,14 @@ public class TradeSystemDBBean {
 		try {
 			stmt = conn.createStatement();
 			PreparedStatement statement = conn
-					.prepareStatement("INSERT INTO securities (NAME, TYPE, PRICE, AMOUNT, UID) VALUES (?,?,?,?,?)");
+					.prepareStatement("INSERT INTO orders (NAME, TYPE, PRICE, AMOUNT, UID) VALUES (?,?,?,?,?)");
 			statement.setString(1, order.getName());
 			if (status == OrderStatus.buy) {
 				statement.setString(2, "B");
 			} else {
 				statement.setString(2, "S");
 			}
-			statement.setDouble(3, order.getPrice());
+			statement.setFloat(3, order.getPrice());
 			statement.setInt(4, order.getAmount());
 			statement.setString(5, order.getUserId());
 			statement.execute();
@@ -102,7 +102,7 @@ public class TradeSystemDBBean {
 				OrderBean order = new OrderBean();
 				
 				order.setName(rs.getString("NAME"));
-				order.setPrice(rs.getDouble("PRICE"));
+				order.setPrice(rs.getFloat("PRICE"));
 				order.setAmount(rs.getInt("AMOUNT"));
 				order.setUserId(rs.getString("UID"));
 				orders.add(order);

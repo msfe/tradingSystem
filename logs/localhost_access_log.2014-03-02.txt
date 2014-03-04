@@ -56,6 +56,3 @@
 127.0.0.1 - - [02/Mar/2014:13:41:19 +0100] "GET /TradeController HTTP/1.1" 200 183
 127.0.0.1 - - [02/Mar/2014:13:41:21 +0100] "GET /TradeController?nickname=Mattias HTTP/1.1" 200 1735
 127.0.0.1 - - [02/Mar/2014:13:41:24 +0100] "GET /TradeController?action=addOrder&security=ERICSSON&buyOrSell=B&price=10&amount=10 HTTP/1.1" 200 55
-127.0.0.1 - - [02/Mar/2014:13:43:37 +0100] "GET /TradeController HTTP/1.1" 200 183
-127.0.0.1 - - [02/Mar/2014:13:43:40 +0100] "GET /TradeController?nickname=Mattias HTTP/1.1" 200 1735
-127.0.0.1 - - [02/Mar/2014:13:43:44 +0100] "GET /TradeController?action=addOrder&security=ERICSSON&buyOrSell=B&price=100&amount=10 HTTP/1.1" 200 55

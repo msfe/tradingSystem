@@ -60,8 +60,10 @@ public class TradeSystemBean {
 	 * 
 	 * @param buyOrder
 	 *            a new buyOrder
+	 * @throws Exception 
 	 */
 	public void addBuyOrder(OrderBean buyOrder) {
+		boolean crash = true;
 		buyOrders.add(buyOrder);
 		db.addOrder(buyOrder, OrderStatus.buy);
 		OrderBean matchingSellOrder = matchingOrderExists(buyOrder, saleOrders,
