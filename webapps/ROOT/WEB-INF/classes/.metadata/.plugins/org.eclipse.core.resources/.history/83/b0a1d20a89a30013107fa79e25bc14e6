@@ -2,6 +2,8 @@ package bean;
 
 import java.util.ArrayList;
 
+import com.mysql.jdbc.Security;
+
 public class TradeSystemBean {
 
 	private static final boolean DEBUG = true;

@@ -66,7 +66,6 @@ public class TradeController extends HttpServlet{
 			UserBean user = (bean.UserBean) session.getAttribute("user");
 			bean.TradeSystemBean tradeSys = (bean.TradeSystemBean) sc
 					.getAttribute("tradingsystem");
-			tradeSys.handleViewTrades("");
 			if (request.getParameter("action").equals("addSecurity")) {
 				tradeSys.addSecurity(request.getParameter("security"));
 				message = "addSecurity";
@@ -88,7 +87,7 @@ public class TradeController extends HttpServlet{
 			}
 
 			if (request.getParameter("action").equals("viewTrades")) {
-				tradeSys.handleViewTrades(request.getParameter("security"));
+				// Kod för att lägga en köp eller säljorder
 				message = "viewTrades";
 			}
 		}

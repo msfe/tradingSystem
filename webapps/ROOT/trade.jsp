@@ -59,6 +59,29 @@ Värdepapper: <select name="security">
 <input type="submit" value="Utför">
 </form>
 
+<h2> Trades </h2>
+<table>
+<tr>
+  <th>Name</th>
+  <th>Price</th> 
+  <th>Amount</th>
+  <th>Buyer</th>
+  <th>Seller</th>
+</tr>
+<%
+for(ClosedOrderBean order : tradeSys.getTrades()){
+%>
+<tr>
+<td><%=order.getName() %></td>
+<td><%=order.getPrice() %></td>
+<td><%=order.getAmount() %></td>
+<td><%=order.getUserId() %></td>
+<td><%=order.getUserIdSeller() %></td>
+<%}%>
+
+</table>
+
+<!--
 <h2> Buy Orders </h2>
 <table>
 <tr>
@@ -116,8 +139,9 @@ for(ClosedOrderBean order : tradeSys.getClosedOrders()){
 <td><%=order.getUserId() %></td>
 <td><%=order.getUserIdSeller() %></td>
 <%}%>
-</table>
 
+</table>
+-->
 </body>
 
 </html>

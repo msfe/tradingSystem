@@ -2,6 +2,8 @@ package bean;
 
 import java.util.ArrayList;
 
+import com.mysql.jdbc.Security;
+
 public class TradeSystemBean {
 
 	private static final boolean DEBUG = true;
@@ -11,7 +13,7 @@ public class TradeSystemBean {
 	private ArrayList<ClosedOrderBean> closedOrders;
 	
 	private TradeSystemDBBean db;
-	private String security = ""; //This variable should be updated through the controller each request.
+	private String security; //This variable shoulb be updated throught the controller each request.
 
 	enum OrderStatus {
 		buy, sell

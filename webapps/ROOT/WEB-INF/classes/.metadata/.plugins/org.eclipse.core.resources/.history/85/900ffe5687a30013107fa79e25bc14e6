@@ -2,6 +2,8 @@ package bean;
 
 import java.util.ArrayList;
 
+import com.mysql.jdbc.Security;
+
 public class TradeSystemBean {
 
 	private static final boolean DEBUG = true;
@@ -11,7 +13,6 @@ public class TradeSystemBean {
 	private ArrayList<ClosedOrderBean> closedOrders;
 	
 	private TradeSystemDBBean db;
-	private String security = ""; //This variable should be updated through the controller each request.
 
 	enum OrderStatus {
 		buy, sell
@@ -167,21 +168,17 @@ public class TradeSystemBean {
 		return closedOrders;
 	}
 	
-	public ArrayList<ClosedOrderBean> getTrades(){
+	public ArrayList<ClosedOrderBean> getTrades(String secutiry){
+		
+		secutiry = secutiry.toUpperCase().trim();
 		
 		ArrayList<ClosedOrderBean> closedTrades = new ArrayList<ClosedOrderBean>();
 
 		for(ClosedOrderBean order : closedOrders){
-			if(order.getName().equals(security)){
-				closedTrades.add(order);
-			}
+			if(order.getName())
 		}
 		
 		return closedTrades;
-	}
-
-	public void handleViewTrades(String parameter) {
-		security = parameter.toUpperCase().trim();
 	}
 
 }

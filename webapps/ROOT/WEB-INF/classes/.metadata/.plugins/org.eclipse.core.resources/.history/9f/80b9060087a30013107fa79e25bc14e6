@@ -11,7 +11,6 @@ public class TradeSystemBean {
 	private ArrayList<ClosedOrderBean> closedOrders;
 	
 	private TradeSystemDBBean db;
-	private String security = ""; //This variable should be updated through the controller each request.
 
 	enum OrderStatus {
 		buy, sell
@@ -165,23 +164,6 @@ public class TradeSystemBean {
 
 	public ArrayList<ClosedOrderBean> getClosedOrders() {
 		return closedOrders;
-	}
-	
-	public ArrayList<ClosedOrderBean> getTrades(){
-		
-		ArrayList<ClosedOrderBean> closedTrades = new ArrayList<ClosedOrderBean>();
-
-		for(ClosedOrderBean order : closedOrders){
-			if(order.getName().equals(security)){
-				closedTrades.add(order);
-			}
-		}
-		
-		return closedTrades;
-	}
-
-	public void handleViewTrades(String parameter) {
-		security = parameter.toUpperCase().trim();
 	}
 
 }

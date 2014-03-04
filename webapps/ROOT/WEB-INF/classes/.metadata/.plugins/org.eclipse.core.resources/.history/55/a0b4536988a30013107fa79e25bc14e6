@@ -61,12 +61,12 @@ public class TradeController extends HttpServlet{
 		}
 
 		String message = "";
+		tradeSys.handleViewTrades(request.getParameter(""));
 
 		if (request.getParameter("action") != null) {
 			UserBean user = (bean.UserBean) session.getAttribute("user");
 			bean.TradeSystemBean tradeSys = (bean.TradeSystemBean) sc
 					.getAttribute("tradingsystem");
-			tradeSys.handleViewTrades("");
 			if (request.getParameter("action").equals("addSecurity")) {
 				tradeSys.addSecurity(request.getParameter("security"));
 				message = "addSecurity";
