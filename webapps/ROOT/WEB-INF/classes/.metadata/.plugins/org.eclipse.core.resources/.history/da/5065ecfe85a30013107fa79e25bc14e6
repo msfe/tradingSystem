@@ -22,7 +22,7 @@ public class TradeSystemBean {
 		saleOrders = db.getOrders(OrderStatus.sell);
 		buyOrders = db.getOrders(OrderStatus.buy);
 		allSecurities = db.getSecurities();
-		closedOrders = db.getClosedOrders();
+		closedOrders = new ArrayList<ClosedOrderBean>();
 
 		if (DEBUG) {
 			addSecurity("Ericsson");
@@ -86,7 +86,6 @@ public class TradeSystemBean {
 			ClosedOrderBean closedOrder = new ClosedOrderBean(buyOrder,
 					sellOrder);
 
-			db.addClosedOrder(closedOrder);
 			closedOrders.add(closedOrder);
 
 			// Adjust the buy/sell order size or remove if empty

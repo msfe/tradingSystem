@@ -112,7 +112,7 @@ public class TradeSystemDBBean {
 		return orders;
 	}
 	
-	public void removeOrder(OrderBean order, TradeSystemBean.OrderStatus status) {
+	public void RemoveOrder(OrderBean order, TradeSystemBean.OrderStatus status) {
 		Statement stmt = null;
 		try {
 			stmt = conn.createStatement();			
@@ -131,45 +131,6 @@ public class TradeSystemDBBean {
 		} catch (SQLException e) {
 			System.err.println("Failed to execute query");
 		}
-	}
-	
-	public void addClosedOrder(ClosedOrderBean order) {
-		Statement stmt = null;
-		try {
-			stmt = conn.createStatement();
-			PreparedStatement statement = conn
-					.prepareStatement("INSERT INTO trades (NAME, PRICE, AMOUNT, BUYER, SELLER) VALUES (?,?,?,?,?)");
-			statement.setString(1, order.getName());			
-			statement.setFloat(2, order.getPrice());
-			statement.setInt(3, order.getAmount());
-			statement.setString(4, order.getUserId());
-			statement.setString(5, order.getUserIdSeller());
-			statement.execute();
-		} catch (SQLException e) {
-			System.err.println("Failed to execute query");
-		}
-	}
-	
-	public ArrayList<ClosedOrderBean> getClosedOrders() {
-		ArrayList<ClosedOrderBean> trades = new ArrayList<ClosedOrderBean>();
-		try {
-			Statement stmt = conn.createStatement();
-			ResultSet rs = null;
-			ClosedOrderBean order;
-			String query = "select * from trades";
-			rs = stmt.executeQuery(query);
-			while (rs.next()) {
-				order = new ClosedOrderBean();
-				order.setName(rs.getString("NAME"));
-				order.setPrice(rs.getFloat("PRICE"));
-				order.setAmount(rs.getInt("AMOUNT"));
-				order.setUserId(rs.getString("BUYER"));
-				order.setUserId(rs.getString("SELLER"));
-				trades.add(order);
-			}
-		} catch (SQLException e) {
-		}
-		return trades;
 	}
 
 }

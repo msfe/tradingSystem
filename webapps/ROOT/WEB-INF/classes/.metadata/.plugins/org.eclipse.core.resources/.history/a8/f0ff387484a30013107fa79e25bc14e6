@@ -22,7 +22,7 @@ public class TradeSystemBean {
 		saleOrders = db.getOrders(OrderStatus.sell);
 		buyOrders = db.getOrders(OrderStatus.buy);
 		allSecurities = db.getSecurities();
-		closedOrders = db.getClosedOrders();
+		closedOrders = new ArrayList<ClosedOrderBean>();
 
 		if (DEBUG) {
 			addSecurity("Ericsson");
@@ -86,22 +86,17 @@ public class TradeSystemBean {
 			ClosedOrderBean closedOrder = new ClosedOrderBean(buyOrder,
 					sellOrder);
 
-			db.addClosedOrder(closedOrder);
 			closedOrders.add(closedOrder);
 
 			// Adjust the buy/sell order size or remove if empty
 			if (closedOrder.getAmount() >= buyOrder.getAmount()) {
-				db.removeOrder(buyOrder, OrderStatus.buy);
 				buyOrders.remove(buyOrder);
 				// If they were the same
 				if (closedOrder.getAmount() >= sellOrder.getAmount()) {
-					db.removeOrder(sellOrder, OrderStatus.sell); 
 					saleOrders.remove(sellOrder);
 				} else { // Their might be more matches for the saleOrder
-					db.removeOrder(sellOrder, OrderStatus.sell); //Update sell Order by removing
 					sellOrder.setAmount(sellOrder.getAmount()
 							- closedOrder.getAmount());
-					db.addOrder(sellOrder, OrderStatus.sell); //And then adding a new one
 					OrderBean newOrderMatch = matchingOrderExists(sellOrder,
 							buyOrders, OrderStatus.sell);
 					if (newOrderMatch != null) {
@@ -109,16 +104,12 @@ public class TradeSystemBean {
 					}
 				}
 			} else { // saleOrder set the limit for the amount, hence removed.
-				db.removeOrder(sellOrder, OrderStatus.sell); 
 				saleOrders.remove(sellOrder);
 				if (closedOrder.getAmount() >= buyOrder.getAmount()) {
-					db.removeOrder(buyOrder, OrderStatus.buy);
 					buyOrders.remove(buyOrder);
 				} else {
-					db.removeOrder(buyOrder, OrderStatus.buy);
 					buyOrder.setAmount(buyOrder.getAmount()
 							- closedOrder.getAmount());
-					db.addOrder(buyOrder, OrderStatus.buy);
 					OrderBean newOrderMatch = matchingOrderExists(buyOrder,
 							saleOrders, OrderStatus.buy);
 					if (newOrderMatch != null) {

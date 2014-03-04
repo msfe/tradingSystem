@@ -151,7 +151,7 @@ public class TradeSystemDBBean {
 	}
 	
 	public ArrayList<ClosedOrderBean> getClosedOrders() {
-		ArrayList<ClosedOrderBean> trades = new ArrayList<ClosedOrderBean>();
+		ArrayList<ClosedOrderBean> securities = new ArrayList<ClosedOrderBean>();
 		try {
 			Statement stmt = conn.createStatement();
 			ResultSet rs = null;
@@ -161,15 +161,11 @@ public class TradeSystemDBBean {
 			while (rs.next()) {
 				order = new ClosedOrderBean();
 				order.setName(rs.getString("NAME"));
-				order.setPrice(rs.getFloat("PRICE"));
-				order.setAmount(rs.getInt("AMOUNT"));
-				order.setUserId(rs.getString("BUYER"));
-				order.setUserId(rs.getString("SELLER"));
-				trades.add(order);
+				securities.add(secutity);
 			}
 		} catch (SQLException e) {
 		}
-		return trades;
+		return securities;
 	}
 
 }

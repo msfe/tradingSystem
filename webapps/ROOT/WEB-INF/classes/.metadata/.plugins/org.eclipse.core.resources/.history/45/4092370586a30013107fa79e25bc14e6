@@ -86,7 +86,6 @@ public class TradeSystemBean {
 			ClosedOrderBean closedOrder = new ClosedOrderBean(buyOrder,
 					sellOrder);
 
-			db.addClosedOrder(closedOrder);
 			closedOrders.add(closedOrder);
 
 			// Adjust the buy/sell order size or remove if empty

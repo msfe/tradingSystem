@@ -16,10 +16,6 @@ public class ClosedOrderBean extends OrderBean {
 		setUserId(buyOrder.getUserId());
 		setUserIdSeller(sellOrder.getUserId());
 	}
-	
-	public ClosedOrderBean(){
-		
-	}
 
 	public String getUserIdSeller() {
 		return userIdSeller;

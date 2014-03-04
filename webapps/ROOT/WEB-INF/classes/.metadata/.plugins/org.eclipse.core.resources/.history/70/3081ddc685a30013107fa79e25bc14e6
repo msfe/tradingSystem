@@ -161,11 +161,7 @@ public class TradeSystemDBBean {
 			while (rs.next()) {
 				order = new ClosedOrderBean();
 				order.setName(rs.getString("NAME"));
-				order.setPrice(rs.getFloat("PRICE"));
-				order.setAmount(rs.getInt("AMOUNT"));
-				order.setUserId(rs.getString("BUYER"));
-				order.setUserId(rs.getString("SELLER"));
-				trades.add(order);
+				trades.add(secutity);
 			}
 		} catch (SQLException e) {
 		}
